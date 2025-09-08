@@ -27,7 +27,7 @@ const skillCategories: SkillCategory[] = [
         title: 'Tools & Frameworks',
         skills: [
             { name: 'GitHub', percent: 80, barClass: 'from-green-400 to-emerald-500 shadow-green-400/50' },
-            { name: 'Node.js', percent: 75, barClass: 'from-lime-400 to-green-500 shadow-lime-400/50' },
+            { name: 'Node.js', percent: 60, barClass: 'from-lime-400 to-green-500 shadow-lime-400/50' },
             { name: 'Git', percent: 88, barClass: 'from-pink-400 to-rose-500 shadow-pink-400/50' },
         ],
     },
@@ -85,7 +85,7 @@ const SkillCard: React.FC<SkillCategory> = ({ icon, title, skills }) => (
 const Skills = () => {
     return (
         <div id='skills' className="w-full box-border px-1 bg-blue-100 relative">
-            <h1 className="text-[10vw] sm:text-5xl xl:text-7xl leading-tight text-center font-bold text-[#1A2537]">Skills & Technologies</h1>
+            <h1 className="text-[10vw] sm:text-5xl xl:text-7xl leading-tight text-center font-bold text-[#1A2537]">{`Skills & Technologies`}</h1>
             <p className="text-[5vw] md:text-[3vw] xl:text-[1.9vw] leading-tight text-center font-bold text-gray-600 py-7">
                 Here are the technologies and tools I work with to bring ideas to life
             </p>

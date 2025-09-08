@@ -53,9 +53,9 @@ const Contact = () => {
 
     return (
         <div id='contact' className="w-full box-border min-h-screen flex flex-col py-10 text-center bg-[linear-gradient(135deg,#0f172a_0%,#1e293b_50%,#0ea5e9_100%)] text-white gap-8">
-            <h1 className="text-[10vw] sm:text-5xl xl:text-7xl leading-tight  font-bold text-black">Let&apos;s Work Together</h1>
+            <h1 className="text-[10vw] sm:text-5xl xl:text-7xl leading-tight  font-bold text-black">{`Let's Work Together`}</h1>
             <p className="text-[5vw] md:text-[3vw] xl:text-[1.9vw] leading-tight font-bold pb-10 text-gray-300 ">
-                Have a project in mind? I&apos;d love to hear about it and discuss how we can bring your ideas to life.
+                {` Have a project in mind? I'd love to hear about it and discuss how we can bring your ideas to life.`}
             </p>
             <div className="flex flex-col  justify-center  gap-10">
                 <div className="flex  gap-16 items-center mb-10 justify-center flex-wrap">
@@ -123,7 +123,7 @@ const Contact = () => {
                         </button>
                     </form>
                     <div id="form-message" ref={messageRef} className="mt-4 text-center hidden">
-                        <p className="text-white/90 ">✨ Thank you for your message! I&apos;ll get back to you soon.</p>
+                        <p className="text-white/90 ">{`✨ Thank you for your message! I'll get back to you soon.`}</p>
                     </div>
                 </div>
             </div>

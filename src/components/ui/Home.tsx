@@ -22,7 +22,7 @@ const Home = () => {
 
   return (
     <div id='home' className='pt-50 sm:pt-30 box-border lg:pt-14 min-h-screen w-full shadow-2xl shadow-cyan-100 bg-[linear-gradient(135deg,#0f172a_0%,#1e293b_50%,#0ea5e9_100%)] text-center gap-5 sm:gap-10 text-white flex flex-col items-center capitalize justify-center'>
-      <h1 className='text-[9vw] sm:text-7xl lg:text-8xl font-bold '> Hi, I'm <span className="typing-animation text-neutral-950" ref={nameRef}></span></h1>
+      <h1 className='text-[9vw] sm:text-7xl lg:text-8xl font-bold '>{` Hi, I'm `}<span className="typing-animation text-neutral-950" ref={nameRef}></span></h1>
       <h2 className=' text-pink-200 text-[7vw] sm:text-[4vw] lg:text-5xl font-bold '>Frontend Developer & UI/UX Enthusiast</h2>
       <h3 className='text-[5vw] sm:text-[1.8vw] lg:text-2xl font-bold px-4 break-words '>I create beautiful, responsive web experiences that users love. Passionate about clean code and pixel-perfect designs.</h3>
       <div className='flex  text-xl pb-20 font-bold pt-20 gap-4'>

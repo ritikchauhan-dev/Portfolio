@@ -11,9 +11,8 @@ import useLenis from "../components/Hooks/UseLenis";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 // Removed unused imports and function signature for optimization
-const page = () => {
+const Page = () => {
   useLenis();
-
   const pathname = usePathname();
   // Scroll to top whenever route changes or page reloads
   useEffect(() => {
@@ -32,4 +31,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
