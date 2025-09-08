@@ -1,0 +1,29 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+.typing-animation {
+  border-right: 2px solid #22d3ee;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+
+  0%,
+  50% {
+    border-color: #22d3ee;
+  }
+
+  51%,
+  100% {
+    border-color: transparent;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  cursor: default;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
