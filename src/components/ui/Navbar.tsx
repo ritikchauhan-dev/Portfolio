@@ -5,7 +5,6 @@ import { gsap } from "gsap";
 
 const Navbar = () => {
   const navbarRef = useRef(null);
-  const menuRef = useRef(null);
   const lastScrollTop = useRef(0);
   const navbarHeight = 80; // approx height including your padding (py-5 + content)
   const [show, setShow] = useState(false);

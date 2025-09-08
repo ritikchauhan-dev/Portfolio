@@ -1,6 +1,4 @@
 import React, { useEffect, useRef } from 'react'
-import FlipLink from "./text-effect-flipper"
-
 const Home = () => {
   const nameRef = useRef<HTMLSpanElement>(null)
   const name = 'ritik chauhan'
