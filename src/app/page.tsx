@@ -7,11 +7,11 @@ import Skills from '@/components/ui/Skills'
 import Projects from '@/components/ui/Projects'
 import Contact from '@/components/ui/Contact'
 import Footer from '@/components/ui/Footer'
-import type { AppProps } from "next/app";
 import useLenis from "../components/Hooks/UseLenis";
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
-const page = ({ Component, pageProps }: AppProps) => {
+// Removed unused imports and function signature for optimization
+const page = () => {
   useLenis();
 
   const pathname = usePathname();

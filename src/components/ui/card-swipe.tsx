@@ -3,16 +3,17 @@
 import React, { useState } from "react"
 import Image from "next/image"
 import { Swiper, SwiperSlide } from "swiper/react"
-import { Autoplay, Navigation, Pagination } from "swiper/modules"
+import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css"
 import { Badge } from "@/components/ui/badge"
 
 interface Project {
-  src: string
-  alt: string
-  title: string
-  description: string
-  badges: string[]
+  src: string;
+  alt: string;
+  title: string;
+  description: string;
+  badges: string[];
+  add: string;
 }
 
 interface CarouselProps {
