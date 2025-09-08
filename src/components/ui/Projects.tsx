@@ -5,18 +5,18 @@ import { CardCarousel } from "@/components/ui/card-carousel"
 const Projects = () => {
     const images = [
         { src: "/4.png", alt: "Image 1" },
-        { src: "/5.png", alt: "Image 1" },
-        { src: "/6.png", alt: "Image 1" },
-        { src: "/7.png", alt: "Image 1" },
-        { src: "/en1.png", alt: "Image 1" },
-        { src: "/1.png", alt: "Image 2" },
-        { src: "/2.png", alt: "Image 3" },
-        { src: "/3.png", alt: "Image 4" },
-        { src: "/pic.png", alt: "Image 5" },
-        { src: "/post2.png", alt: "Image 6" },
-        { src: "/post3.png", alt: "Image 7" },
-        { src: "/tic2.png", alt: "Image 8" },
-        { src: "/tic3.png", alt: "Image 9" },
+        { src: "/5.png", alt: "Image 2" },
+        { src: "/6.png", alt: "Image 3" },
+        { src: "/7.png", alt: "Image 4" },
+        { src: "/en1.png", alt: "Image 5" },
+        { src: "/1.png", alt: "Image 6" },
+        { src: "/2.png", alt: "Image 7" },
+        { src: "/3.png", alt: "Image 8" },
+        { src: "/pic.png", alt: "Image 9" },
+        { src: "/post2.png", alt: "Image 10" },
+        { src: "/post3.png", alt: "Image 11" },
+        { src: "/tic2.png", alt: "Image 12" },
+        { src: "/tic3.png", alt: "Image 13" },
     ]
 
     const projects = [
