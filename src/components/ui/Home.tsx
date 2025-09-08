@@ -26,21 +26,12 @@ const Home = () => {
       <h2 className=' text-pink-200 text-[7vw] sm:text-[4vw] lg:text-5xl font-bold '>Frontend Developer & UI/UX Enthusiast</h2>
       <h3 className='text-[5vw] sm:text-[1.8vw] lg:text-2xl font-bold px-4 break-words '>I create beautiful, responsive web experiences that users love. Passionate about clean code and pixel-perfect designs.</h3>
       <div className='flex  text-xl pb-20 font-bold pt-20 gap-4'>
-
-
-
         <button type="button" onClick={() => {
           document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })
         }} className='bg-cyan-500 shadow-2xl shadow-cyan-500/50 rounded-4xl text-[#1e293b] capitalize px-4 py-3 text-sm'>view my work</button>
-
-
-
         <button type="button" onClick={() => {
           document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })
         }} id='btn-con' className='bg-[#1B4562] border-cyan-500  border-2 hover:bg-cyan-500 hover:shadow-cyan-500/50 hover:shadow-2xl rounded-4xl text-cyan-500 hover:text-[#1e293b] capitalize px-8 py-3  text-sm '>get in touch</button>
-
-
-
       </div>
     </div>
   )

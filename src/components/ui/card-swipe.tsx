@@ -74,11 +74,11 @@ export const CardSwipe: React.FC<CarouselProps> = ({
                 onMouseEnter={() => setHoveredIndex(index)}
                 onMouseLeave={() => setHoveredIndex(null)}
               >
-                <div className="relative overflow-hidden  border-b-2 rounded-3xl">
+                <div className="relative overflow-hidden   border-b-2 rounded-3xl">
                   <a
                     href={project.add}
                     target="_blank"
-                    className={`ring-4  ring-cyan-300  p-2 rounded-full shadow-2xl absolute top-40 left-36 text-cyan-100 bg-black/35 font-bold transition-opacity duration-200 ${hoveredIndex === index ? "opacity-100" : "opacity-0 pointer-events-none"
+                    className={`ring-4  ring-cyan-300  p-2 rounded-full shadow-2xl absolute top-[50%] left-[23vw] sm:top-40 sm:left-36  text-cyan-100 bg-black/35 font-bold transition-opacity duration-200 ${hoveredIndex === index ? "opacity-100" : "opacity-0 pointer-events-none"
                       }`}
                   >
                     View Project
