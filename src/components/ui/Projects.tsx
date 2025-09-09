@@ -26,7 +26,7 @@ const Projects = () => {
             title: "K72 Project",
             description: "a fully responsive React website using React + Vite + TailwindCSS with smooth GSAP animations and Lenis scrolling effects.",
             badges: ["ReactJS", "Tailwind CSS", "javaScript", "Lenis", "Gsap"],
-            add: "https://k72-website-jkki.onrender.com/",
+            add: "https://k72-green.vercel.app/#/agence",
         },
         {
             src: "/card1.png",
