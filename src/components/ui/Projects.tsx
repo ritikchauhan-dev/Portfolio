@@ -34,7 +34,7 @@ const Projects = () => {
             title: "Personal Portfolio",
             description: "A responsive, animated portfolio website designed to showcase skills and projects with modern UI/UX principles.",
             badges: ["NextJS", "Tailwind CSS", "TypeScript"],
-            add: "https://k72-website-jkki.onrender.com/",
+            add: "https://portfolio-dev-nine-chi.vercel.app/",
         },
         {
             src: "/card2.png",
@@ -50,7 +50,7 @@ const Projects = () => {
             title: "Tic Tac Toe Game",
             description: "A simple and fun browser-based two-player Tic Tac Toe game, Interactive win detection logic, Lightweight modular JavaScript code.",
             badges: ["HTML", "CSS", "JavaScript"],
-            add: "https://lnkd.in/gqX_7N47",
+            add: "https://ritikchauhan-dev.github.io/tic-tac-toe-game/",
         },
         {
             src: "/card4.png",
@@ -58,7 +58,7 @@ const Projects = () => {
             title: "todo App",
             description: "A feature-rich task management app built to practice state management and server-side rendering (SSR), Add, edit, and delete tasks.",
             badges: ["NEXTJS", "TAILWIND CSS", "JAVASCRIPT"],
-            add: "https://k72-website-jkki.onrender.com/",
+            add: "https://to-do-seven-sandy.vercel.app/",
         },
     ]
 
