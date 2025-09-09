@@ -17,7 +17,7 @@ const WrapButton: React.FC<WrapButtonProps> = ({
 }) => {
   const handledownload = () => {
     const link = document.createElement("a")
-    link.href = "/ritik-chauhan-resume.pdf" // Replace with the path to your resume file
+    link.href = "/RITIK CHAUHAN.pdf" // Replace with the path to your resume file
     link.download = "ritik-chauhan-resume.pdf" // The name the file will have when downloaded
     document.body.appendChild(link)
     link.click()
